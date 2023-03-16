@@ -51,9 +51,9 @@ $('.slider-nav').on('afterChange', function(event, slick, currentSlide){
 }).trigger('afterChange');
 
 
- $('.slider-dots li:nth-of-type(1) button').css("background" , "url(../assets/images/img2.jpg)");
- $('.slider-dots li:nth-of-type(2) button').css("background" , "url(../assets/images/img3.jpg)");
- $('.slider-dots li:nth-of-type(3) button').css("background" , "url(../assets/images/img1.jpg)");
+ $('.slider-dots li:nth-of-type(1) button').css("background" , "url(https://nicholas123321.github.io/tentwentytest/assets/images/img2.jpg)");
+ $('.slider-dots li:nth-of-type(2) button').css("background" , "url(https://nicholas123321.github.io/tentwentytest/assets/images/img3.jpg)");
+ $('.slider-dots li:nth-of-type(3) button').css("background" , "url(https://nicholas123321.github.io/tentwentytest/assets/images/img1.jpg)");
 
     $(".slider-dots li").append('<a class="cu-next">Next</a>');
       $('.cu-next').click(function(){
