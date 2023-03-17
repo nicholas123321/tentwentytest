@@ -48,20 +48,39 @@
 										ul{
 											li{
 												margin-right: 8px;
+												padding-bottom: 32px;
+													padding-top: 32px;
 												a{
+													display: inline-block;
+													position: relative;
 													font-family: @font;
-													padding-bottom: 40px;
-													padding-top: 40px;
 													font-weight: 400;
 													font-size: 14px;
 													line-height: 140%;
 													color: #000000;
+													&:after {    
+														  background: none repeat scroll 0 0 transparent;
+														  bottom: 0;
+														  content: "";
+														  display: block;
+														  height: 3px;
+														  left: 50%;
+														  position: absolute;
+														  background: #000;
+														  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+														  width: 0;
+														}
+														
 													@media(max-width: 767px){
 														padding-top: 5px;
 														padding-bottom: 5px;
 														text-align: center;
 													}
 												}
+												a:hover:after { 
+													width: 100%; 
+													left: 0; 
+													}
 											}
 										}
 										@media(max-width:767px){
