@@ -1,8 +1,8 @@
   jQuery(document).ready(function(){
 
    jQuery(function(){
-    jQuery("#header").load("https://nicholas123321.github.io/TenTwenty_test/templates/header.html"); 
-    jQuery("#footer").load("https://nicholas123321.github.io/templates/footer.html"); 
+    jQuery("#header").load("https://nicholas123321.github.io/tentwentytest/templates/header.html"); 
+    jQuery("#footer").load("https://nicholas123321.github.io/tentwentytest/templates/footer.html"); 
   });
 
 const myTimeout = setTimeout(myGreeting, 500);
